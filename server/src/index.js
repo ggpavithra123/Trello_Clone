@@ -14,7 +14,7 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/trello_clo
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://trello-clone-m24w.vercel.app",
     credentials: true,
   })
 );
